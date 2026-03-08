@@ -27,10 +27,11 @@ cargo build --release
 cp target/release/claw-fs ~/.local/bin/claw-fs
 ```
 
-### Option B: Node.js (Windows)
-1. Ensure Node.js is installed.
-2. No compilation needed. The repository includes `claw-fs.js` and a `claw-fs.cmd` wrapper.
-3. Just add the repository folder to your Windows `%PATH%` or call `claw-fs.cmd` directly.
+### Option B: Pre-compiled Binary (Windows)
+1. Download the pre-compiled `claw-fs.exe` from the latest Release.
+2. Place `claw-fs.exe` in a directory of your choice.
+3. Add that directory to your Windows `%PATH%` environment variable.
+4. No dependencies (like Node.js or Visual Studio C++) are required!
 
 ---
 
